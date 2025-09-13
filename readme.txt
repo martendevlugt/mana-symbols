@@ -1,3 +1,8 @@
+Why this fork?
+Forked plugin to fix a problem with the regex not being specific enough and targeting curly brackets within HTML on the front page of my website.
+Made the regex specific to only the characters it targets for replacement with symbols in an effort to prevent this problem.
+~ Marten
+
 === Mana Symbols ===
 Contributors: beatrepeat
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V4B7QE9PXYDPU
@@ -42,5 +47,6 @@ Tap/untap symbols and snow mana: {T}, {Q}, {S}
 * First release
 
 == Upgrade Notice ==
+
 
 * None
