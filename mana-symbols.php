@@ -98,7 +98,7 @@ class ManaReplacer
 
 	function replace() {
 		return preg_replace_callback(
-			'/\{([^\}]+)\}/',
+			'/\{([wWuUbBrRgGqQtTsS\/0-9]+)\}/',
 			array($this, 'to_symbols'),
 			$this->text
 		);
